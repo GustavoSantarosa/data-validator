@@ -1,27 +1,33 @@
 {
-    "name": "gustavo-santarosa/data-validator",
+    "name": "gustavosantarosa/validator",
     "description": "validações para automatizar controllers",
-    "type":"library",
-    "version": "1.0",
-    
-    "license": "MIT",
+    "keywords": [
+        "GustavoSantarosa",
+        "Bolota",
+        "validação",
+        "validator"
+      ],
+    "homepage":"http://www.gustavosantarosa.esy.es/",
+    "license":"MIT",
     "authors": [
         {
             "name": "Luis Gustavo Santarosa Pinto",
             "email": "gustavo-computacao@hotmail.com",
-            "role": "creator"
+            "role": "Developer"
         }
     ],
     "require": {
-        "php":">7.2"
+        "php":"^7.2"
     },
-    "minimum-stability": "stable",
     "autoload":{
         "psr-4":{
-            "src\\": "src/"
+            "GustavoSantarosa\\Validator\\": "src"
         }
     },
-    "config": {
-        "vendor-dir": "vendor"
-    }
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.0-dev"
+        }
+    },
+    "minimum-stability": "stable"
 }

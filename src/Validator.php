@@ -1,4 +1,7 @@
 <?php
+
+namespace GustavoSantarosa\Validator;
+
  /**
  * Classe designada a validação de dados para automatizar os Controllers
  * 
@@ -9,7 +12,7 @@
  * Diretório Pai - lib
  * Arquivo - DataValidator.php
  */
-class DataValidator
+class Validator
 {
     /**
     * Verifica se o dado passado esta vazio
